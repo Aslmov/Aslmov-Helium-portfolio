@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -77,7 +76,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
         
-        Koumana Morguen est un développeur full-stack et etudiant à Dakar. il
+        Koumana Morguen est un developpeur full-stack et etudiant à Dakar. il
           est passionné d'informatique, robotique et jeux vidéo. Très dynamique et
           concentré dans chaque projet entreprit que ce soit universitaire ou professionnel
           je ne vous en dit pas plus et vous laisse voir à travers son portfolio.
@@ -111,7 +110,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          J'❤️
+          J&apos;❤️
         </Heading> 
         <Paragraph>
         Robotique 🦾, Machine Learning 🤖, Art 🎭 , Musique 🎷, Jeux Videos 🕹️, Basket 🏀
