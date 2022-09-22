@@ -76,10 +76,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
         
-        Koumana Morguen est un developpeur full-stack et etudiant à Dakar. il
-          aime d&apos;informatique, robotique et jeux vidéo. Très dynamique et
-          concentré dans chaque projet entreprit que ce soit universitaire ou professionnel
-          je ne vous en dit pas plus et vous laisse voir à travers son portfolio.
+        Koumana Morguen est un développeur full-stack et étudiant à Dakar. il
+        est passionné d&apos;informatique, robotique et jeux vidéo. Très dynamique et
+        concentré dans chaque projet entreprit que ce soit universitaire ou professionnel
+        je ne vous en dit pas plus et vous laisse le voir à travers son portfolio.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
