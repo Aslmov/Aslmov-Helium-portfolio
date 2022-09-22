@@ -78,8 +78,8 @@ const Home = () => (
         
         Koumana Morguen est un développeur full-stack et étudiant à Dakar. il
         est passionné d&apos;informatique, robotique et jeux vidéo. Très dynamique et
-        concentré dans chaque projet entreprit que ce soit universitaire ou professionnel
-        je ne vous en dit pas plus et vous laisse le voir à travers son portfolio.
+        concentré dans chaque projet entreprit que ce soit universitaire ou professionnel.
+        Je ne vous en dit pas plus et vous laisse le voir à travers son portfolio.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
