@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
               Koumana Diwediga Morguen       
           </Heading>
-          <p>Developpeur Full-stack</p>
+          <p>Developpeur Full-stack et Data Scientist</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,15 +76,16 @@ const Home = () => (
         </Heading>
         <Paragraph>
         
-        Koumana Morguen est un développeur full-stack et étudiant à Dakar. il
+        Koumana Morguen est un développeur full-stack et étudiant à Paris. il
         est passionné d&apos;informatique, robotique et jeux vidéo. Très dynamique et
-        concentré dans chaque projet entreprit que ce soit universitaire ou professionnel.
+        concentré dans chaque projet entreprit que ce soit universitaire ou professionnel. 
+        Il est actuellement en master en Data Science et Stratégie à IONIS STM Paris.
         Je ne vous en dit pas plus et vous laisse le voir à travers son portfolio.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Mon portfolio
+              Mes projets
             </Button>
           </NextLink>
         </Box>
@@ -104,7 +105,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Obtention de Sa licence en Informatique de Gestion
+          Obtention de sa licence en Informatique de Gestion à Ucao St Michel Dakar
+        </BioSection>
+        <BioSection>
+          <BioYear>2024 - 2025</BioYear>
+         Master en Data Science et Stratégie IONIS STM Paris
         </BioSection>
       </Section>
 
