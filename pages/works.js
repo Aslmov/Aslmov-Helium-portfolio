@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbleGochap from '../images/test.png'
+import thumbleGochap from '../images/gochap.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -15,7 +15,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="gochap" title="GoChap" thumbnail={thumbleGochap}>
-            Solution de déplacements
+          Plateforme digitale de services de mobilité et de livraison
           </WorkGridItem>
         </Section>
         <Section>
@@ -42,7 +42,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbleGochap} title="Margelo">
-            Site web d'une agence de développement d'applications d'élite basée en Autriche
+            Site web d&apos;une agence de développement d&apos;applications d&apos;élite basée en Autriche
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
