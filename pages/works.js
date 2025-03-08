@@ -4,6 +4,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbleGochap from '../images/gochap.png'
+import tumbleMood from '../images/mood.png'
+import tumbleHunt4job from '../images/hunt4job.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -14,17 +16,21 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="gochap" title="GoChap" thumbnail={thumbleGochap}>
-          Plateforme digitale de services de mobilité et de livraison
+          <WorkGridItem 
+            id="collaboration/gochap" 
+            title="GoChap" 
+            thumbnail={thumbleGochap}
+          >
+            Plateforme digitale de services de mobilité et de livraison
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbleGochap}
+            id="collaboration/mood"
+            title="mood"
+            thumbnail={tumbleMood}
           >
-            Application de recommandations musicales pour iOS
+            Application de rencontre basé sur le mood des utilisateur
           </WorkGridItem>
         </Section>
 
@@ -41,24 +47,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbleGochap} title="Margelo">
-            Site web d&apos;une agence de développement d&apos;applications d&apos;élite basée en Autriche
+          <WorkGridItem id="universitaire/hunt4job" thumbnail={tumbleHunt4job} title="hunt4job">
+          Application de recherche d&apos;emploi utilisant du web scrapping et l&apos;ia
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbleGochap}
-            title="mode.tokyo"
-          >
-            Le magazine mode pour comprendre et apprécier personnellement le Japon
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbleGochap} title="Styly">
-            Outils créatifs VR pour les marques de mode
-          </WorkGridItem>
-        </Section>
+       
       </SimpleGrid>
 
       <Section delay={0.4}>
@@ -71,22 +64,14 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbleGochap} title="Pichu*Pichu">
-            Application client Twitter pour Safari iPhone
+        <WorkGridItem id="universitaire/hunt4job" thumbnail={tumbleHunt4job} title="hunt4job">
+          Application de recherche d&apos;emploi utilisant du web scrapping et l&apos;ia
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbleGochap}
-            title="freeDBTagger"
-          >
-            Outil automatique de marquage de fichiers audio utilisant FreeDB pour Windows
-          </WorkGridItem>
-        </Section>
+        
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbleGochap} title="Amembo">
-            Outil de partage de fichiers P2P privé avec intégration MSN Messenger pour Windows
+          <WorkGridItem id="universitaire/biblioteka" thumbnail={tumbleHunt4job} title="Biblioteka">
+          Projet d’initiation au traitement batch avec Hadoop HDFS et MapReduce, utilisant Docker pour le déploiement d’un cluster Hadoop à trois nœuds.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

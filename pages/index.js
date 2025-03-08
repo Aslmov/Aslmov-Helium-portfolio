@@ -109,7 +109,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2024 - 2025</BioYear>
-         Master en Data Science et Stratégie IONIS STM Paris
+         Master en Data Science et Stratégie à IONIS STM Paris
         </BioSection>
       </Section>
 
