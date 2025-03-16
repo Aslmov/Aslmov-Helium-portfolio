@@ -30,7 +30,7 @@ const Works = () => (
             title="mood"
             thumbnail={tumbleMood}
           >
-            Application de rencontre basé sur le mood des utilisateur
+            Application de rencontre basé sur le mood des utilisateurs
           </WorkGridItem>
         </Section>
 
